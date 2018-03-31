@@ -6,6 +6,6 @@ RUN \
     echo "Updating System" && \
         apt-get update -y && \
     echo "Install arping" && \
-        apt-get install iputils-arping && \
+        apt-get install -y iputils-arping && \
     echo "Update and installations with user 'root' done" && \
         true
